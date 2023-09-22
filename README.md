@@ -28,6 +28,12 @@ Whether the website is SSL protected.
 Notes and Hints:
 
 Reduce redundancy in your code by creating a loop to iterate through each webpage.
+Requirements:
+Before running the script, make sure to install the required Python libraries using pip:
+
+
+# Copy code
+pip install requests
 
 # Lab 2 - Web Scraping with Requests and BeautifulSoup
 Instructions:
@@ -53,6 +59,12 @@ The order of columns in the CSV should match the sample output data.
 Notes and Hints:
 
 None provided.
+Requirements:
+Before running the script, make sure to install the required Python libraries using pip:
+
+
+# Copy code
+pip install requests beautifulsoup4 lxml
 
 # Lab 3 - Advanced Web Scraping with Throttling
 Instructions:
@@ -83,6 +95,12 @@ Notes and Hints:
 Your code from Lab #2 can be a useful starting point.
 Enumerate the phones listed on the webpage and make requests for child pages in a loop.
 Avoid hard-coded URLs for each phone page.
+Requirements:
+Before running the script, make sure to install the required Python libraries using pip:
+
+
+# Copy code
+pip install requests beautifulsoup4 lxml
 Additional Information:
 
 Depending on your operating system, you may see "blank" lines in your CSV, which is not an issue.
