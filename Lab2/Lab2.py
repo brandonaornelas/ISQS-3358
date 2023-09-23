@@ -14,3 +14,6 @@ details = phone_details.find_all('span', attrs='val')
 
 for i in details:
     print(i.text)
+
+for j in titles:
+    print(j.text)
