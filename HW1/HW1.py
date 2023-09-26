@@ -5,7 +5,8 @@ import random as rand
 import csv
 
 # Defining my filepath, and filename
-FILEPATH = "/Users/brandonornelas/ISQS-3358/HW1/"
+#FILEPATH_MAC = ""
+FILEPATH_PC = "C:/Users/bgorn/OneDrive/ISQS-3358/HW1/"
 FILENAME = "HW1.csv"
 
 # Defining my low integer and high integer
@@ -60,7 +61,7 @@ for row in USR_ROWS:
     
 
 # Writing the extracted USER_INFORMATION to a csv file
-with open(FILEPATH + FILENAME, 'w') as HW1_DATA:
+with open(FILEPATH_PC + FILENAME, 'w') as HW1_DATA:
     write = csv.writer(HW1_DATA, delimiter="|", quotechar='"', quoting= csv.QUOTE_NONNUMERIC)
     write.writerow(['Rank', 'UserID', 'FirstName', 'LastName', 'AverageWater', 'AverageSleep', 'AverageStep', 'Day', 'WaterAmount', 'SleepAmount', 'StepAmount', 'Metric'])
     for row in USER_INFORMATION:
