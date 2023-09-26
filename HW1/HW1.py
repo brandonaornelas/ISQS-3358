@@ -46,8 +46,6 @@ for row in USR_ROWS:
     # Defining each user's URL to scrape, and sending HTTP GET request while parsing it with BeautifulSoup 
     USER_SOUP = BeautifulSoup(USER_URL.content, 'lxml')
     USER_PRIMARY = USER_SOUP.find('div', attrs={'id':'UsrPrimary'}).find_all('span', attrs={'class': 'val'})
-    #FIRST_NAME = USER_PRIMARY[0].text
-    #LAST_NAME = USER_PRIMARY[1].text
     USER_DATA = USER_SOUP.find('div', attrs={'id': 'UsrDetail'}).find('table').find_all('tr')[1:]
 
     # Looping through each row in the individual user data.
@@ -67,6 +65,4 @@ with open(FILEPATH + FILENAME, 'w') as HW1_DATA:
     write.writerow(['Rank', 'UserID', 'FirstName', 'LastName', 'AverageWater', 'AverageSleep', 'AverageStep', 'Day', 'WaterAmount', 'SleepAmount', 'StepAmount', 'Metric'])
     for row in USER_INFORMATION:
         write.writerow(row)
-  
-    
-    
+        
