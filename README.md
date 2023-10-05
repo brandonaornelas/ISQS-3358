@@ -104,3 +104,35 @@ pip install requests beautifulsoup4 lxml
 Additional Information:
 
 Depending on your operating system, you may see "blank" lines in your CSV, which is not an issue.
+
+# Lab 4: Exploratory Data Analysis with Pandas
+In Lab 4, your group will write a Python program that demonstrates how to use the Pandas library to access and manipulate data. This lab involves working with a CSV dataset and performing various data analysis tasks.
+
+# Required Libraries
+Make sure to install the following Python libraries if you haven't already:
+
+Pandas: Used for data manipulation and analysis.
+Matplotlib: Used for data visualization.
+Requests: Used to make HTTP requests for downloading data from a URL.
+You can install these libraries using pip:
+
+# Copy code
+pip install pandas matplotlib requests
+
+# Dataset
+The required dataset for this lab, rando.csv, is included in the Lab4 folder of this repository.
+
+# Implementation
+To run the implementation for this lab, follow these steps:
+
+Open your terminal or command prompt.
+
+Navigate to the Lab4 folder in your project repository:
+
+# Copy code
+cd /path/to/your/repository/Lab4
+Run the lab4.py Python script:
+
+# Copy code
+python lab4.py
+The script will execute the tasks outlined in the lab instructions and provide the results in the console. Make sure that you have the necessary Python libraries installed as specified above.
