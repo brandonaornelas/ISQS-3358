@@ -1,0 +1,17 @@
+EmpId,Title,Salary,Benefits,SalesValue,employee_comp,position_comp
+E810018938,Sales Associate 2,49013.0,9945.0,103932.0,high,high
+E970021430,Sales Associate 2,49744.0,9190.0,102139.0,high,high
+E390027125,Sales Associate 2,49652.0,9612.0,107306.0,high,high
+E310030598,Sales Associate 2,49079.0,9364.0,105426.0,high,high
+E19007511,Sales Associate 3,62032.0,12222.0,90081.0,high,high
+E970016228,Sales Associate 3,68170.0,13594.0,89006.0,high,high
+E930025416,Sales Associate 3,61880.0,12029.0,110274.0,high,high
+E800028571,Sales Associate 3,60438.0,12245.0,111094.0,high,high
+E520029402,Sales Associate 3,69241.0,13165.0,118140.0,high,high
+E350033868,Sales Associate 3,61509.0,13998.0,118701.0,high,high
+E960035212,Sales Associate 3,64584.57142857143,12291.0,82956.0,high,high
+E350050914,Sales Associate 3,68822.0,13101.0,94249.0,high,high
+E94008464,Sales Manager,76313.0,17644.0,66062.0,high,high
+E220017410,Sales Manager,85303.0,16000.0,51427.0,high,high
+E760047734,Sales Manager,89077.0,16902.0,111445.0,high,high
+E870049796,Sales Manager,85288.0,15871.0,54793.0,high,high
